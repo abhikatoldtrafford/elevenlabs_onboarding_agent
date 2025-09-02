@@ -1,4 +1,4 @@
-# RIATA Onboarding Tracker
+# Elevenlabs Onboarding Tracker
 
 A voice-powered onboarding application that uses ElevenLabs conversation AI to collect user profile information through natural conversation.
 
@@ -33,8 +33,8 @@ Watch the application in action: [https://www.youtube.com/watch?v=MQ3lW7p4Zn4&t=
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/riata-onboarding-tracker.git
-cd riata-onboarding-tracker
+git clone https://github.com/abhikatoldtrafford/elevenlabs_onboarding_agent.git
+cd elevenlabs_onboarding_agent
 ```
 
 2. Install dependencies:
