@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# RIATA Onboarding Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A voice-powered onboarding application that uses ElevenLabs conversation AI to collect user profile information through natural conversation.
+
+## Live Demo
+
+Watch the application in action: [https://www.youtube.com/watch?v=MQ3lW7p4Zn4&t=18s&ab_channel=AbhikMaiti](https://www.youtube.com/watch?v=MQ3lW7p4Zn4&t=18s&ab_channel=AbhikMaiti)
+
+## Features
+
+- **Voice-First Onboarding**: Natural conversation interface powered by ElevenLabs AI
+- **Real-Time Profile Building**: Automatically extracts and displays user information as they speak
+- **Smart Data Extraction**: Captures personal details, interests, learning preferences, and goals
+- **Visual Feedback**: Live updates with animations and progress tracking
+- **Completion Tracking**: Shows profile completion percentage and extracted field count
+
+## Profile Information Captured
+
+- **Personal Details**: First name, last name, occupation, location
+- **Learning Preferences**: Learning style, preferred study times
+- **Interests**: Multiple areas of interest
+- **Goals**: Both short-term and long-term objectives
+- **AI-Generated Persona**: Overall user profile summary
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/riata-onboarding-tracker.git
+cd riata-onboarding-tracker
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The application will open at [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner in interactive watch mode
+- `npm run build` - Builds the app for production to the `build` folder
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 19.1.0** - UI framework
+- **TypeScript** - Type-safe JavaScript
+- **ElevenLabs React SDK** - Voice conversation integration
+- **Create React App** - Build tooling and configuration
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## How It Works
 
-### `npm test`
+1. Click "Start Onboarding" to begin the voice conversation
+2. The AI agent will guide you through the onboarding process
+3. As you speak, your profile information is extracted in real-time
+4. Watch the profile cards populate with your information
+5. Track your progress with the completion percentage
+6. End the conversation when your profile is complete
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is private and proprietary.
